@@ -28,7 +28,7 @@ export default function ProductTabs() {
     }, [])
 
     if (isLoading) return <p>Loading...</p>
-    if (!data) return <p>No profile data</p>
+    if (!data) return <p>No data</p>
 
     // const data = await getData();
     // console.log(data);
